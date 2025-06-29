@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biografi Saya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="gambar/profil.jpeg.jpg" alt="Foto Profil" class="profile-image">
+      <h1>Hello, Rudy Ary Barutressy</h1>
+      <button id="toggle-dark">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <nav>
+    <div class="box merah" data-target="about">
+      <i class="fas fa-user"></i> me
+    </div>
+    <div class="box biru" data-target="hobby">
+      <i class="fas fa-heart"></i> hobi
+    </div>
+    <div class="box hijau" data-target="campus">
+      <i class="fas fa-university"></i> kampus
+    </div>
+    <div class="box kuning" data-target="contact">
+      <i class="fas fa-envelope"></i> Kontak
+    </div>
+  </nav>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="content-section active">
+      <div class="section-content">
+        <h2><i class="fas fa-user"></i> Tentang Saya</h2>
+        <div class="animated-content">
+          <p>Saya adalah mahasiswa semester 4 di Fakultas Ilmu Komputer, jurusan Informatika.</p>
+          <div class="skills">
+            <h3>Keahlian:</h3>
+            <ul>
+              <li>HTML/CSS/JavaScript</li>
+              <li>Office</li>
+              <li>Service Elektronik</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobby Section -->
+    <section id="hobby" class="content-section">
+      <div class="section-content">
+        <h2><i class="fas fa-heart"></i> Hobi Saya</h2>
+        <div class="animated-content">
+          <div class="hobby-grid">
+            <div class="hobby-item">
+              <i class="fas fa-futbol"></i>
+              <h3>Sepak Bola</h3>
+              <p>Bermain setiap akhir pekan</p>
+            </div>
+            <div class="hobby-item">
+              <i class="fas fa-music"></i>
+              <h3>Bernyanyi</h3>
+              <p>Khususnya lagu-lagu pop dan slow rock</p>
+            </div>
+            <div class="hobby-item">
+              <i class="fas fa-gamepad"></i>
+              <h3>Bermain Game</h3>
+              <p>playstation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus Section -->
+    <section id="campus" class="content-section">
+      <div class="section-content">
+        <h2><i class="fas fa-university"></i> Asal Kampus</h2>
+        <div class="animated-content">
+          <div class="campus-card">
+            <img src="gambar\uki.jpeg" alt="Universitas Kristen Indonesia Maluku" class="campus-image">
+            <div class="campus-info">
+              <h3>Universitas Kristen Indonesia Maluku</h3>
+              <p>Fakultas: Ilmu Komputer</p>
+              <p>Jurusan: Informatika</p>
+              <p>Semester: 4</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <div class="section-content">
+        <h2><i class="fas fa-envelope"></i> Kontak</h2>
+        <div class="animated-content">
+          <div class="contact-methods">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:barutressyrudy@gmail.com">barutressyrudy@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/arybarutressy/" target="_blank">@arybarutressy</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/6281234567890" target="_blank">+62 813-4054-8417</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 rudy ary barutressy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
